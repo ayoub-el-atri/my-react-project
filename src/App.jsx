@@ -1,4 +1,5 @@
 import * as React from "react";
+<<<<<<< HEAD
 const list =[
   {
     title: "react",
@@ -41,4 +42,18 @@ cd <source />gfunction App() {
     </div>
   );
 }
+=======
+function getTitle(title) {
+  return title;
+}
+function App() {
+  return (
+    <div>
+      <h1>hello {getTitle("React")}</h1>
+      <label htmlFor="search">search:</label>
+      <input id="search" type="text" /> 
+    </div>
+  );
+}
+>>>>>>> 31a7b7d94b0369e8ed3bad92c7ea408516dca0bf
 export default App;
