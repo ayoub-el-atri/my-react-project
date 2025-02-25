@@ -17,7 +17,7 @@ const list =[
     objectID: 1, 
   },
 ];
-function App() {
+cd <source />gfunction App() {
   return (
     <div>
       <h1>My Hacker Stories</h1>
